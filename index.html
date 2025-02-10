@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo de João Felipe dos Santos Gomes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #eef2f7;
+            color: #333;
+        }
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #fff;
+            padding: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 15px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.8em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            border-bottom: 3px solid #0a025c;
+            padding-bottom: 8px;
+            margin-top: 30px;
+            font-size: 1.8em;
+        }
+        p, li {
+            line-height: 1.8;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .contact-info {
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 1.1em;
+        }
+        .contact-info p {
+            margin: 8px 0;
+        }
+        .contact-info a {
+            color: #0a025c;
+            text-decoration: none;
+        }
+        .skills {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .skills ul {
+            width: 48%;
+            background: #f4f4f9;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .experience, .education, .skills-section {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .item {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            background: #f9f9fc;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .item-details {
+            width: 70%;
+        }
+        .item-date {
+            text-align: right;
+            color: #777;
+            width: 25%;
+            font-style: italic;
+        }
+        .item p {
+            margin-top: 8px;
+        }
+        @media (max-width: 600px) {
+            .skills {
+                flex-direction: column;
+            }
+            .skills ul {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            .item {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .item-date {
+                text-align: left;
+                width: 100%;
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>João Felipe dos Santos Gomes</h1>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:joaofelipegomes4@gmail.com">joaofelipegomes4@gmail.com</a></p>
+            <p>Telefone: <a href="tel:+5511995583492">(11) 99558-3492</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/jo%C3%A3o-gomes-35bb5a205?trk=contact-info" target="_blank">linkedin.com/in/jo%C3%A3o-gomes-35bb5a205</a></p>
+            <p>GitHub: <a href="https://github.com/DevG0mes" target="_blank">github.com/DevG0mes</a></p>
+        </div>
+
+        <h2>Experiência</h2>
+        <div class="experience">
+            <div class="item">
+                <div class="item-details">
+                    <strong>PSI Process</strong> - Trainee TI
+                    <p>Responsável por automação de processos interdepartamentais utilizando ferramentas do Office 365 como Power Automate, Power Apps e SharePoint. Desenvolvimento de scripts VBA para otimização de planilhas e controle eficiente de contratos e ativos.</p>
+                </div>
+                <div class="item-date">Abr/2022 - Atual</div>
+            </div>
+        </div>
+
+        <h2>Educação</h2>
+        <div class="education">
+            <div class="item">
+                <div class="item-details">
+                    <strong>UniAnchieta</strong> - Bacharelado em Ciência da Computação
+                </div>
+                <div class="item-date">Abr/2022 - Jan/2026</div>
+            </div>
+        </div>
+
+        <h2>Skills</h2>
+        <div class="skills-section">
+            <div class="skills">
+                <ul>
+                    <li><strong>Hard Skills:</strong></li>
+                    <li>Power Fx e Power Platform</li>
+                    <li>Programação em R, DAX e M</li>
+                    <li>Automatização de fluxos com Power Automate</li>
+                    <li>Desenvolvimento de Apps com Power Apps</li>
+                    <li>Integração de dados com SharePoint e Excel</li>
+                    <li>Automação de planilhas com VBA</li>
+                </ul>
+                <ul>
+                    <li><strong>Soft Skills:</strong></li>
+                    <li>Comunicação eficaz e clara</li>
+                    <li>Colaboração e trabalho em equipe</li>
+                    <li>Resolução analítica de problemas</li>
+                    <li>Gestão eficiente de tempo e prazos</li>
+                    <li>Adaptabilidade a novas tecnologias</li>
+                    <li>Pensamento crítico e inovação</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
